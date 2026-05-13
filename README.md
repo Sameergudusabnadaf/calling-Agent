@@ -1,7 +1,5 @@
 # Custom AI Voice Agent — Lily (Flora Flower Shop)
 
-**Developed by: SAMEER NADAF**
-
 This project implements a fully custom AI voice agent that can answer customer phone calls, handle business queries, and log conversations to Airtable.
 
 ## Architecture
@@ -65,6 +63,7 @@ This project implements a fully custom AI voice agent that can answer customer p
 ### 4. Airtable Setup
 
 Create a base in Airtable with a table named `CallLogs` (or as configured in `.env`) with the following columns:
+
 - `Caller Number` (Single line text)
 - `Duration` (Single line text)
 - `Transcript` (Long text)
@@ -73,6 +72,7 @@ Create a base in Airtable with a table named `CallLogs` (or as configured in `.e
 ### 5. Running the Agent
 
 Start the agent worker:
+
 ```bash
 python agent.py dev
 ```
@@ -82,3 +82,4 @@ python agent.py dev
 - **No Voice**: Check your ElevenLabs API key and ensure the `ELEVENLABS_VOICE_ID` is valid.
 - **Transcription Failures**: Ensure Deepgram credits are available.
 - **Airtable Errors**: Verify your Token and Base ID.
+  **Developed by: SAMEER NADAF**
