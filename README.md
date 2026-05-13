@@ -1,5 +1,7 @@
 # Custom AI Voice Agent — Lily (Flora Flower Shop)
 
+**Developed by: SAMEER NADAF**
+
 This project implements a fully custom AI voice agent that can answer customer phone calls, handle business queries, and log conversations to Airtable.
 
 ## Architecture
